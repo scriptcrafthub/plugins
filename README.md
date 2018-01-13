@@ -1,7 +1,7 @@
 # ScriptCraft Hub
 ScriptCraft Hub is a place for the ScriptCraft user community to find and share scripts, information, and ideas for making the most of ScriptCraft.
 
-ScriptCraft is a Minecraft plugin for writing Minecraft mods in JavaScript.  ScriptCraft was created and is maintained by @walterhiggins.  ScriptCraft comes with a rich set of plugins, and has a lot of useful information for installing, getting started with, and utilizing its API.  The purpose of ScriptCraft Hub is to augment that with contributions from the community.
+ScriptCraft is a Minecraft plugin for writing Minecraft mods in JavaScript.  [ScriptCraft](https://github.com/walterhiggins/ScriptCraft) was created and is maintained by [walterhiggins](https://github.com/walterhiggins).  ScriptCraft comes with a rich set of plugins, and has a lot of useful information for installing, getting started with, and utilizing its API.  The purpose of ScriptCraft Hub is to augment that with contributions from the community.
 
 # plugins
 The initial repo within ScriptCraft Hub is its `plugins` repo, as a clearinghouse of users' ScriptCraft plugins.
@@ -24,7 +24,7 @@ One guiding aim for this repo is to keep it simple to add or update these plugin
 
 You can (usually) use the commit for a given contribution to trace back to the GitHub repo of its author, but a consolidated list of contributors is provided here.
 
-@landru27  -  ScriptCraft Hub maintainer and vanilla Minecraft hacker
+[landru27](https://github.com/landru27)  -  ScriptCraft Hub maintainer and vanilla Minecraft hacker
 
 
 ### LICENSE
