@@ -10,7 +10,7 @@ function huskBoss(loc) {
     // mob.getEquipment().setLeggings(items['diamondLeggings'](1));
     // mob.getEquipment().setChestplate(items['diamondChestplate'](1));
     mob.getEquipment().setHelmet(items['diamondHelmet'](1));
-    // mob.setCustomName('Bob the Terrible');
+    mob.setCustomName('Bob the Terrible');
     // behavior loop
     function loop() {
         // Keep looping while mob is alive.
