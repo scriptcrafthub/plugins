@@ -1,6 +1,6 @@
-var entities = require('entities');
-var items = require('items');
-var Vector = Java.type('org.bukkit.util.Vector');
+const entities = require('entities');
+const items = require('items');
+const Vector = Java.type('org.bukkit.util.Vector');
 
 export function huskBossBob(loc) {
   const mob = loc.world.spawnEntity(loc, entities['husk']());
@@ -24,7 +24,7 @@ export function huskBossBob(loc) {
     }
 
     // Fireball Attack! (when haz target).
-    var target = mob.getTarget();
+    const target = mob.getTarget();
     if (target && target.type == 'PLAYER') {
       var fb = Java.type("org.bukkit.entity.Fireball").class;
       var pl = target.location;
