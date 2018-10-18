@@ -3,8 +3,6 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var entities = require('entities');
 var items = require('items');
 var Vector = Java.type('org.bukkit.util.Vector');
-var log_1 = require("magikcraft/log");
-var log = log_1.Logger('mobs/husk-boss');
 function huskBoss(loc) {
     var mob = loc.world.spawnEntity(loc, entities['husk']());
     mob.getEquipment().setItemInHand(items['diamondSword'](1));
